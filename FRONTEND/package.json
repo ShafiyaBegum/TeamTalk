@@ -5,7 +5,7 @@
   "type": "module",
   "scripts": {
     "dev": "vite",
-    "build": "vite build",
+    "build": "vite build && echo Build directory contents: && ls -al build",
     "lint": "eslint .",
     "preview": "vite preview"
   },

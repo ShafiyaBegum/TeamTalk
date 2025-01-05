@@ -4,6 +4,9 @@ import path from 'path';
 
 // https://vitejs.dev/config/
 export default defineConfig({
+  build: {
+    outDir: 'build', // This sets the output directory to 'build'
+  },
   plugins: [react()],
   resolve: {
     alias: {
